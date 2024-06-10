@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+#top {
+    margin-top: 0.938em;
+    height: 2.5em;
+    background-color: black;
+    border-bottom: 1px solid silver;
+}
+
+#navul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+#navul li a {
+    text-decoration: none;
+    font-size: large;
+    color: rgb(185, 185, 185);
+}
+
+#navul li :hover {
+    color: white;
+}
+
+#navul {
+    margin-top: 0.938em;
+    text-align: right;
+}
+
+#startseite {
+    width: 99%;
+    height: 40em;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hallo {
+    margin-top: 8em;
+}
+
+body {
+    height: auto;
+    width: 98vw;
+    padding: 0;
+    background-color: black;
+}
+
+#startseite a button {
+    font-size: 30px;
+    margin-top: 2em;
+    margin-left: 2.25em;
+    border: 2px solid grey;
+}
+
+#uebermichbut:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#uebermichbut {
+    background-color: black;
+    color: white;
+}
+
+#skillsbut:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#skillsbut {
+    background-color: white;
+    color: black;
+}
+
+/*ueber mich*/
+#info-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    height: 50em;
+}
+
+#uebermichtitle {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#rund {
+    grid-column: 1;
+    width: 60%;
+    height: 69%;
+    border-radius: 50%;
+    margin-bottom: 6em;
+}
+
+#uebermich {
+    grid-column: 2;
+    width: 71.8%;
+    height: 83.5%;
+    float: right;
+    margin-right: 3em;
+    margin-top: 5em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+
+/*skills*/
+#skills {
+    margin-top: 10em;
+}
+
+#skillstitle {
+    margin: 0;
+    text-align: center;
+}
+
+
+#projectstitle {
+    margin: 0;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 5em auto;
+}
+
+.grid-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: #333;
+    border: 2px solid #444;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+    overflow: hidden;
+}
+
+
+.grid-item img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.grid-item:hover {
+    transform: scale(1.1);
+    background-color: #555;
+    border: 2px solid #666;
+}
+
+/*projekte*/
+#projekte {
+    margin-top: 32.5em;
+}
+
+.grid-conts {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 5em auto;
+}
+
+.grid-item p{
+    font-size: 10px;
+}
+
+
+
+
+.grd-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 5em auto;
+}
+
+.grd-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Erhöht die Höhe für den zusätzlichen Text */
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: #333;
+    border: 2px solid #444;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+    overflow: hidden;
+    padding: 10px; /* Fügt Innenabstand hinzu */
+}
+
+.grd-item img {
+    height: 200px; /* Erhöht die Höhe des Bildes */
+    width: 100%; /* Lässt das Bild die gesamte Breite des Buttons einnehmen */
+    object-fit: contain; /* Behält das Seitenverhältnis des Bildes bei */
+    margin-bottom: 10px; /* Fügt Abstand unter dem Bild hinzu */
+}
+
+.grd-item h2 {
+    margin: 10px 0 5px 0; /* Fügt Abstand über und unter dem Titel hinzu */
+    font-size: 18px;
+}
+
+.grd-item p {
+    font-size: 14px; /* Reduziert die Schriftgröße der Beschreibung */
+    text-align: center; /* Zentriert den Beschreibungstext */
+}
+
+.grd-item:hover {
+    transform: scale(1.1);
+    background-color: #555;
+    border: 2px solid #666;
+}
