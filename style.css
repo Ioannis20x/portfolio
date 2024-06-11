@@ -211,7 +211,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px; /* Erhöht die Höhe für den zusätzlichen Text */
+    height: 400px; 
     text-decoration: none;
     color: white;
     font-size: 24px;
@@ -222,28 +222,71 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
     overflow: hidden;
-    padding: 10px; /* Fügt Innenabstand hinzu */
+    padding: 10px; 
 }
 
 .grd-item img {
-    height: 200px; /* Erhöht die Höhe des Bildes */
-    width: 100%; /* Lässt das Bild die gesamte Breite des Buttons einnehmen */
-    object-fit: contain; /* Behält das Seitenverhältnis des Bildes bei */
-    margin-bottom: 10px; /* Fügt Abstand unter dem Bild hinzu */
+    height: 200px; 
+    width: 100%;
+    object-fit: contain; 
+    margin-bottom: 10px; 
 }
 
 .grd-item h2 {
-    margin: 10px 0 5px 0; /* Fügt Abstand über und unter dem Titel hinzu */
+    margin: 10px 0 5px 0; 
     font-size: 18px;
 }
 
 .grd-item p {
-    font-size: 14px; /* Reduziert die Schriftgröße der Beschreibung */
-    text-align: center; /* Zentriert den Beschreibungstext */
+    font-size: 14px; 
+    text-align: center; 
 }
 
 .grd-item:hover {
     transform: scale(1.1);
     background-color: #555;
     border: 2px solid #666;
+}
+
+/*Kontakt*/
+
+#kontakt {
+    margin: 20em auto;
+    text-align: center;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #333;
+    border: 2px solid #444;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+}
+
+.circle img {
+    width: 50px;
+    height: 50px;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    background-color: #555;
+    border: 2px solid #666;
+}
+
+#kontakt p{
+    font-size: 20px;
+    color:white;
 }
